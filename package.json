@@ -1,0 +1,10 @@
+{
+  "name": "volvia-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tienda online VOLVIA: productos NFC para Google Reviews, Instagram, TikTok, LinkedIn y WhatsApp.",
+  "scripts": {
+    "start": "npx --yes serve . -l 3000",
+    "dev": "npx --yes serve . -l 3000"
+  }
+}
