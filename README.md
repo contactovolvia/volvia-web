@@ -20,10 +20,9 @@ Sitio estático en **HTML + CSS + JavaScript** (sin framework, sin build). La na
 ```
 volvia-web/
 ├── index.html            Página principal
-├── assets/
-│   ├── css/styles.css    Estilos
-│   ├── js/app.js         Lógica: productos, rutas, carrito, formularios
-│   └── images/           Logo y fotos de productos
+├── css/styles.css        Estilos
+├── js/app.js             Lógica: productos, rutas, carrito, formularios
+├── images/               Logo y fotos de productos
 ├── package.json          Solo para ejecutar en local
 ├── .env.example          Plantilla de variables de entorno (hoy no se usa ninguna)
 ├── .gitignore
@@ -56,10 +55,10 @@ Cada vez que hagas `git push` a la rama `main`, Vercel despliega automáticament
 
 ## Cómo modificar
 
-- Productos y precios: arreglo `P` en `assets/js/app.js`.
-- Fotos: carpeta `assets/images/` (y el objeto `IMG` en `assets/js/app.js`).
-- Estilos: `assets/css/styles.css`.
-- Datos de contacto: WhatsApp `+56 9 7415 7259` y correo `contacto.volvia@gmail.com` (buscar en `assets/js/app.js`).
+- Productos y precios: arreglo `P` en `js/app.js`.
+- Fotos: carpeta `images/` (y el objeto `IMG` en `js/app.js`).
+- Estilos: `css/styles.css`.
+- Datos de contacto: WhatsApp `+56 9 7415 7259` y correo `contacto.volvia@gmail.com` (buscar en `js/app.js`).
 
 ## Pendiente (prototipo)
 
